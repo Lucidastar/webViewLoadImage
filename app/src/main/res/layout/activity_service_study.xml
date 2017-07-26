@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lucidastar.demo.ServiceStudyActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务"
+        android:onClick="openService"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭服务"
+        android:onClick="closeService"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        android:onClick="bindService"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑定服务"
+        android:onClick="unbindService"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启和绑定服务服务"
+        android:onClick="openAndBindService"
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="关闭绑定服务"
+    android:onClick="closeAndUnbindService"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="判断服务是否关闭"
+        android:onClick="checkServiceClose"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="判断服务的个数及名称"
+        android:onClick="checkServiceNum"
+        />
+</LinearLayout>
